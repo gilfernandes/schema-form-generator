@@ -16,6 +16,12 @@ class Sidebar extends React.Component {
                     <li>
                         <NavLink to={'/formRenderer'}>Form Renderer</NavLink>
                     </li>
+                    <li>
+                        <NavLink to={'/formRendererTComb'}>Form Renderer TComb</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/formRendererTCombSchema'}>Form Renderer TComb Schema</NavLink>
+                    </li>
                 </ul>
             </nav>
         );
