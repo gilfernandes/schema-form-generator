@@ -48,7 +48,7 @@ export class FormRendererTCombSchema extends Component {
     render() {
         return (
             <div className="container">
-                <h2>TComb with schema</h2>
+                <h2 className="title">TComb with schema</h2>
                 <form onSubmit={(e) => this.updateFormSchema(e)}>
                     <div className="form-group">
                         <textarea className="form-control" value={this.state.schema} onChange={(e) => this.updateSchema(e)}/>

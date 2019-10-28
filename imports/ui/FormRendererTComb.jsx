@@ -40,6 +40,7 @@ export class FormRendererTComb extends Component {
     render() {
         return (
             <form onSubmit={this.onSubmit}>
+                <h2 className="title">TComb with API</h2>
                 <t.form.Form ref="form" type={FormSchema}/>
                 <div className="form-group">
                     <button type="submit" className="btn btn-primary">Save</button>

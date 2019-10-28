@@ -13,9 +13,11 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div>
-                <button onClick={() => this.increment()}>Click Me</button>
-                <p>You've pressed the button {this.state.counter} times.</p>
+            <div className="container">
+                <h3 className="title">Onepoint MDM UI</h3>
+                <div className="col-sm-12">
+                    This UI allows to generate forms from JSON schemas.
+                </div>
             </div>
         );
     }
