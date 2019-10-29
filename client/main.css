@@ -102,3 +102,20 @@ ul ul a {
 .array-field {
     width: 50px;
 }
+
+/** Form formatting */
+.form-group-depth-1, .fieldset-depth-1 {
+
+}
+
+.form-group-depth-2, .fieldset-depth-2 {
+    margin-left: 20px
+}
+
+.form-group-depth-3, .fieldset-depth-3 {
+    margin-left: 40px
+}
+
+.form-group-depth-4, .fieldset-depth-4 {
+    margin-left: 60px
+}
